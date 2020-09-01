@@ -1,0 +1,8 @@
+.news {
+  display: grid;
+  grid-gap: 1.2em;
+  grid-template-columns: 3fr 1fr;
+  grid-column: 1/2;
+  margin-top: 2em;
+  grid-gap: 1.2em;
+}

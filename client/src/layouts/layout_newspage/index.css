@@ -1,0 +1,42 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* background: url('../../images/body-bg.jpg') no-repeat 0px 0px; */
+}
+
+.news-paper {
+    background: #fff;
+    background-size: 100% 100%;
+    margin-top: 1em;
+    padding: 1em 1.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+@media screen and (max-width: 600px) {
+    .news-paper {
+        background: #fff;
+        padding: 1em 1.5em;
+        margin-top: -7px;
+        margin-left: -10px;
+        margin-right: -50px;
+        width: auto;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+}

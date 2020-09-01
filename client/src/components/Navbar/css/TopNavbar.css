@@ -1,0 +1,48 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+nav {
+    margin: 0;
+    margin-left: -1em;
+    /* margin-bottom: 1.3em;
+    padding: -3em; */
+    /* background-color: #254441; */
+    color: white;
+    height: 14px;
+    font-size: 18;
+}
+
+.nav_link {
+    color: white;
+    margin-right: 1px;
+}
+
+a.nav_link {
+    font-size: 1.03em;
+}
+
+a.nav_link:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.navbar-toggler {
+    margin-right: -1.6em;
+    margin-top: -1.6em;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../../../picture/icon/menu.png);
+    width: 30px;
+    height: 28px;
+    /* margin-top: 3px; */
+    /* padding: -1em; */
+}
+
+@media screen and (max-width: 600px) {
+    .ml-1 .navbar-nav {
+        display: block;
+    }
+}

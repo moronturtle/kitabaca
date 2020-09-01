@@ -1,0 +1,30 @@
+.footerNews {
+  /* display: grid;
+    grid-template-columns: 100%; */
+  background: #254441;
+}
+
+.footerNews > div {
+  /* margin-left: 20em; */
+  background: #254441;
+  padding-left: 2em;
+  color: white;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .footerNews {
+    /* display: grid;
+        grid-template-columns: 100%; */
+    width: 110%;
+    background: #254441;
+  }
+
+  .footerNews > div {
+    /* margin-left: 20em; */
+    background: #254441;
+    padding-left: 1em;
+    color: white;
+    margin: auto;
+  }
+}
